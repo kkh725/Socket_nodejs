@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h4>채팅페이지</h4>
+    <button id = "send" onclick = "socket.send('hello')"> 메세지보내기 </button>
+
+    <script>
+        let socket = new WebSocket("ws://221.158.178.99:8082");
+    </script>
+</body>
+</html>
